@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+background-color:#d0e4fe;
+}
+h1
+{
+color:orange;
+text-align:center;
+}
+p
+{
+font-family:"Times New Roman";
+font-size:20px;
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  border:solid;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+  border:solid;
+}
+section {
+  border:solid;
+  margin-left: 200px;
+}
+.box {
+  float: left;
+  width: 200px;
+  height:100px;
+  margin: 1em;
+  border:solid;
+}
+.after-box {
+  clear: left;
+}
+.clearfix:after {
+  content: ".";
+  height: 0;
+  visibility: hidden;
+  border:solid;
+  clear: both;
+}
+nav1 {
+  float: left;
+  display: block;
+  width: 200px;
+  border:solid;
+}
+section1 {
+  display: block;
+  margin-left: 200px;
+  border:3px solid;
+}
+test {
+  display: block;
+  border: solid;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <nav>ppp</nav>
+  <section>aaaa</section>
+  <section>aaaa</section>
+  <section>aaaa</section>
+</div>
+<div class="box">
+  sdsdafasdfasdfsadfsdf
+</div>
+<div class="after-box">
+  mmmmmmmmmmmmmmmmmmmmmm
+</div>
+<div class="clearfix">
+  <nav1>ppp</nav1>
+  <section1>aaaa</section1>
+  <section1>aaaa</section1>
+</div>
+<test style="text-align:center">a</test>
+</body>
+</html>
+

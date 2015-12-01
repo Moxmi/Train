@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+background-color:#d0e4fe;
+}
+h1
+{
+color:orange;
+text-align:center;
+}
+p
+{
+font-family:"Times New Roman";
+font-size:20px;
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.movefix:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  border:solid;
+  clear:both;
+}
+.border {
+  border:solid;
+}
+@media screen and (min-width:800px) {
+  nav {
+    float: left;
+    width: 25%;
+    border:solid;
+  }
+  section {
+    margin-left: 25%;
+    border:solid;
+  }
+}
+@media screen and (max-width:799px) {
+  nav {
+    display: inline;
+    border:solid
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="movefix border">
+  <nav><a href="www.baidu.com">asdasd</a></nav>
+  <section>aaaaa</section>
+</div>
+</body>
+</html>
+
