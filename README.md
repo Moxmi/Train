@@ -1,3 +1,5 @@
-# exmail_train
+# Train
 
-## This is a copycat of exmail index page.
+## This is just a train set for myself.
+
+### Maybe include HTML5, JavaScript, CSS3 or python etc.
